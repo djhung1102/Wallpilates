@@ -6,19 +6,37 @@
 //
 
 import SwiftUI
+import StoreKit
+import StoreKitify
 
 struct ContentView: View {
+    @Environment(StoreKitify.self) private var store
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            Screen1()
+                .environment(store)
+                .tabItem {
+                    Label("Screen1", systemImage: "film")
+                }
+            Screen2()
+                .environment(store)
+                .tabItem {
+                    Label("Screen2", systemImage: "tv")
+                }
+            Screen3()
+                .environment(store)
+                .tabItem {
+                    Label("Screen3", systemImage: "globe")
+                }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
+        .environment(StoreKitify(productIdentifiers: [
+            "fitee.subscription.monthly.plan",
+            "fitee.subscription.yearly.plan",
+        ]))
 }

@@ -1,0 +1,15 @@
+{
+  "originHash" : "efe142885f436cf4e3233b6d93f40124ff1dc4d8e4060e748d10bf7550a50ab2",
+  "pins" : [
+    {
+      "identity" : "model",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tranduchieu/Model",
+      "state" : {
+        "branch" : "dancefitme/main",
+        "revision" : "b556beea5a9f8c1b1cafb78a5e109a6e95246eab"
+      }
+    }
+  ],
+  "version" : 3
+}

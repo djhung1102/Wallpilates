@@ -3,22 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF131AF42BDB5619006D5BF6 /* StoreKitify in Frameworks */ = {isa = PBXBuildFile; productRef = EF131AF32BDB5619006D5BF6 /* StoreKitify */; };
+		EF131AF52BDB67CF006D5BF6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEC88CD2BD8CA97006E3D16 /* StoreKit.framework */; };
+		EF74B12F2BE51516003A3557 /* Screen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74B12E2BE51516003A3557 /* Screen1.swift */; };
+		EF74B1312BE515BF003A3557 /* Screen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74B1302BE515BF003A3557 /* Screen2.swift */; };
+		EF74B1332BE516FC003A3557 /* Screen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74B1322BE516FC003A3557 /* Screen3.swift */; };
 		EFEC88BF2BD8BE23006E3D16 /* WallpilatesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC88BE2BD8BE23006E3D16 /* WallpilatesApp.swift */; };
 		EFEC88C12BD8BE23006E3D16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC88C02BD8BE23006E3D16 /* ContentView.swift */; };
 		EFEC88C32BD8BE25006E3D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEC88C22BD8BE25006E3D16 /* Assets.xcassets */; };
 		EFEC88C62BD8BE25006E3D16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEC88C52BD8BE25006E3D16 /* Preview Assets.xcassets */; };
+		EFEC88D12BD8CF74006E3D16 /* MyProductsIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC88D02BD8CF74006E3D16 /* MyProductsIdentifiers.swift */; };
+		EFEC88D32BD8CFCB006E3D16 /* WallStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC88D22BD8CFCB006E3D16 /* WallStore.swift */; };
+		EFEC88D52BD8D5E2006E3D16 /* WallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC88D42BD8D5E2006E3D16 /* WallView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF74B12E2BE51516003A3557 /* Screen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1.swift; sourceTree = "<group>"; };
+		EF74B1302BE515BF003A3557 /* Screen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2.swift; sourceTree = "<group>"; };
+		EF74B1322BE516FC003A3557 /* Screen3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen3.swift; sourceTree = "<group>"; };
 		EFEC88BB2BD8BE23006E3D16 /* Wallpilates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallpilates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEC88BE2BD8BE23006E3D16 /* WallpilatesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpilatesApp.swift; sourceTree = "<group>"; };
 		EFEC88C02BD8BE23006E3D16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFEC88C22BD8BE25006E3D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFEC88C52BD8BE25006E3D16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFEC88CD2BD8CA97006E3D16 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EFEC88D02BD8CF74006E3D16 /* MyProductsIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProductsIdentifiers.swift; sourceTree = "<group>"; };
+		EFEC88D22BD8CFCB006E3D16 /* WallStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallStore.swift; sourceTree = "<group>"; };
+		EFEC88D42BD8D5E2006E3D16 /* WallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF131AF42BDB5619006D5BF6 /* StoreKitify in Frameworks */,
+				EF131AF52BDB67CF006D5BF6 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +54,7 @@
 			children = (
 				EFEC88BD2BD8BE23006E3D16 /* Wallpilates */,
 				EFEC88BC2BD8BE23006E3D16 /* Products */,
+				EFEC88CC2BD8CA97006E3D16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +71,12 @@
 			children = (
 				EFEC88BE2BD8BE23006E3D16 /* WallpilatesApp.swift */,
 				EFEC88C02BD8BE23006E3D16 /* ContentView.swift */,
+				EF74B12E2BE51516003A3557 /* Screen1.swift */,
+				EF74B1302BE515BF003A3557 /* Screen2.swift */,
+				EF74B1322BE516FC003A3557 /* Screen3.swift */,
+				EFEC88D42BD8D5E2006E3D16 /* WallView.swift */,
+				EFEC88D02BD8CF74006E3D16 /* MyProductsIdentifiers.swift */,
+				EFEC88D22BD8CFCB006E3D16 /* WallStore.swift */,
 				EFEC88C22BD8BE25006E3D16 /* Assets.xcassets */,
 				EFEC88C42BD8BE25006E3D16 /* Preview Content */,
 			);
@@ -65,6 +89,14 @@
 				EFEC88C52BD8BE25006E3D16 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFEC88CC2BD8CA97006E3D16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFEC88CD2BD8CA97006E3D16 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +115,9 @@
 			dependencies = (
 			);
 			name = Wallpilates;
+			packageProductDependencies = (
+				EF131AF32BDB5619006D5BF6 /* StoreKitify */,
+			);
 			productName = Wallpilates;
 			productReference = EFEC88BB2BD8BE23006E3D16 /* Wallpilates.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +146,9 @@
 				Base,
 			);
 			mainGroup = EFEC88B22BD8BE23006E3D16;
+			packageReferences = (
+				EF131AF22BDB5619006D5BF6 /* XCLocalSwiftPackageReference "../../../Packages/StoreKitify" */,
+			);
 			productRefGroup = EFEC88BC2BD8BE23006E3D16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +176,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFEC88C12BD8BE23006E3D16 /* ContentView.swift in Sources */,
+				EFEC88D12BD8CF74006E3D16 /* MyProductsIdentifiers.swift in Sources */,
+				EFEC88D52BD8D5E2006E3D16 /* WallView.swift in Sources */,
+				EF74B1332BE516FC003A3557 /* Screen3.swift in Sources */,
+				EF74B1312BE515BF003A3557 /* Screen2.swift in Sources */,
+				EF74B12F2BE51516003A3557 /* Screen1.swift in Sources */,
 				EFEC88BF2BD8BE23006E3D16 /* WallpilatesApp.swift in Sources */,
+				EFEC88D32BD8CFCB006E3D16 /* WallStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaki.health.fitee.Wallpilates;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaki.health.fitee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,7 +358,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaki.health.fitee.Wallpilates;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaki.health.fitee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,6 +388,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		EF131AF22BDB5619006D5BF6 /* XCLocalSwiftPackageReference "../../../Packages/StoreKitify" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../../Packages/StoreKitify;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF131AF32BDB5619006D5BF6 /* StoreKitify */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StoreKitify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EFEC88B32BD8BE23006E3D16 /* Project object */;
 }
